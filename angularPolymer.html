@@ -3,16 +3,16 @@
     <head>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
         <title>Angular Polymer Binding</title>
-        <script type="text/javascript" src="../../../bower_components/webcomponentsjs/webcomponents.js"></script>
-        <link href="../../../bower_components/paper-input/paper-input.html" rel="import">
-        <script type="text/javascript" src="../../../bower_components/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="../../../bower_components/angular/angular.js"></script>
-        <link href="../../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/stylesheet">
+        <script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.js"></script>
+        <link href="bower_components/paper-input/paper-input.html" rel="import">
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="angularPolymer.js"></script>
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/stylesheet">
     </head>
     <body style="padding:15px;">
         <p><strong>Angular Polymer Binding Example</strong></p>
         <paper-input label="test" bind-scope="value:inputText" value="test"></paper-input>
         <blockquote><p>{{inputText}}</p></blockquote>
-        <script type="text/javascript" src="bindScope.js"></script>
     </body>
 </html>
